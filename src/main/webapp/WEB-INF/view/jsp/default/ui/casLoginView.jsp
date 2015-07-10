@@ -69,7 +69,7 @@ TODO: add ALA licensing info.
 				</c:when>
 				<c:otherwise>
 				    <spring:message code="screen.welcome.label.netid.accesskey" var="userNameAccessKey" />
-				    <form:input cssClass="required"
+				    <form:input cssClass="required form-control input-lg"
 						cssErrorClass="error"
 						id="username"
 						size="25"
@@ -78,7 +78,6 @@ TODO: add ALA licensing info.
 						path="username"
 						autocomplete="off"
 						htmlEscape="true"
-						class="form-control input-lg"
 						placeholder="username" />
 				</c:otherwise>
 			    </c:choose>
@@ -99,7 +98,7 @@ TODO: add ALA licensing info.
 			    http://www.technofundo.com/tech/web/ie_autocomplete.html
 			    --%>
 			    <spring:message code="screen.welcome.label.password.accesskey" var="passwordAccessKey" />
-			    <form:password cssClass="required"
+			    <form:password cssClass="required form-control input-lg"
 					   cssErrorClass="error"
 					   id="password"
 					   path="password"
@@ -107,7 +106,6 @@ TODO: add ALA licensing info.
 					   htmlEscape="true"
 					   autocomplete="off"
 					   size="25"
-					   class="form-control input-lg"
 					   placeholder="password" />
 
 			    <!-- TODO: remove, this is only for reference
