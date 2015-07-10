@@ -23,11 +23,12 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 
 	<!-- FontAwesome -->
-	<link href="css/font-awesome-4.3.0.min.css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
 
 	<!-- ALA -->
 	<link href="css/ala-cas.css" rel="stylesheet" />
 
+	<!-- TODO: check this, do we have a favicon, and how do we want to access it. -->
 	<link rel="icon" href="<c:url value="/favicon.ico" />" type="image/x-icon" />
 
 	<!--[if lt IE 9]>
