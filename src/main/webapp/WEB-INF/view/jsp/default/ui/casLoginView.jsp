@@ -40,7 +40,7 @@ TODO: add ALA licensing info.
 		    </div>
 
 		    <a href="${FacebookClientUrl}">
-			<button class="btn btn-lg btn-facebook btn-block margin-bottom-1 font-xxsmall">Sign in with Facebook</button>
+			<button class="btn btn-lg btn-facebook btn-block margin-bottom-1 font-xxsmall" type="button">Sign in with Facebook</button>
 		    </a>
 
 		    <a href="${TwitterClientUrl}">
