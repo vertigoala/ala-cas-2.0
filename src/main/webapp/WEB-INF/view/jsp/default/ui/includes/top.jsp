@@ -22,7 +22,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 
 	<!-- FontAwesome -->
-	<link href="css/font-awesome-4.2.0.min.css" rel="stylesheet" />
+	<link href="css/font-awesome-4.3.0.min.css" rel="stylesheet" />
 
 	<!-- ALA -->
 	<link href="css/ala-cas.css" rel="stylesheet" />
