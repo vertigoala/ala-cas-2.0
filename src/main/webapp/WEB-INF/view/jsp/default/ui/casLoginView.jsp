@@ -128,7 +128,10 @@ TODO: add ALA licensing info.
 			    <spring:message code="screen.welcome.button.login" />
 			</button>
 
-			<p class="small text-center">Don't have an account? <a href="#">Sign up now</a>.</p>
+			<!-- NOTE: you can leave the link "/userdetails/registration/createAccount" UNLESS you are changing the the userdetails
+			     servlet mapping or deploying userdetails on a diff host.
+			-->
+			<p class="small text-center">Don't have an account? <a href="/userdetails/registration/createAccount">Sign up now</a>.</p>
 		    </form:form>
 
 		</div>
