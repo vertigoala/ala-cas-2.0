@@ -55,6 +55,8 @@ TODO: add ALA licensing info.
 
 		    <form:form class="form-signin" method="post" id="fm1" commandName="${commandName}" htmlEscape="true">
 
+			<form:errors path="*" id="msg" cssClass="errors" element="div" htmlEscape="false" />
+
 			<div class="form-group" id="ala-login-fields">
 			    <label for="username" class="sr-only">
 				<spring:message code="screen.welcome.label.netid" />
