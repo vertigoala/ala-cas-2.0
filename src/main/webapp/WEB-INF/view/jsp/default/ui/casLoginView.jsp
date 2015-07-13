@@ -78,7 +78,7 @@ TODO: add ALA licensing info.
 						path="username"
 						autocomplete="off"
 						htmlEscape="true"
-						placeholder="username" />
+						placeholder="username" autofocus="autofocus" />
 				</c:otherwise>
 			    </c:choose>
 			    <!-- TODO: remove, this is only for reference
@@ -106,7 +106,8 @@ TODO: add ALA licensing info.
 					   htmlEscape="true"
 					   autocomplete="off"
 					   size="25"
-					   placeholder="password" />
+					   placeholder="password"
+					   tabindex="2" />
 
 			    <!-- TODO: remove, this is only for reference
 				 <label for="inputPassword" class="sr-only">Password</label>
@@ -124,7 +125,7 @@ TODO: add ALA licensing info.
 			     accesskey="l"
 			     value="<spring:message code="screen.welcome.button.login" />" tabindex="4" type="submit" />
 			-->
-			<button class="btn btn-lg btn-primary btn-block margin-bottom-1 font-xxsmall" accesskey="l" type="submit">
+			<button class="btn btn-lg btn-primary btn-block margin-bottom-1 font-xxsmall" accesskey="l" type="submit" tabindex="3">
 			    <spring:message code="screen.welcome.button.login" />
 			</button>
 
@@ -132,6 +133,7 @@ TODO: add ALA licensing info.
 			     servlet mapping or deploying userdetails on a diff host.
 			-->
 			<p class="small text-center">Don't have an account? <a href="/userdetails/registration/createAccount">Sign up now</a>.</p>
+			</fieldset>
 		    </form:form>
 
 		</div>
