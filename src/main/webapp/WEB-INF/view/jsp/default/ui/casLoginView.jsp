@@ -39,17 +39,9 @@ TODO: add ALA licensing info.
 			<h2 class="heading-medium-large">Sign in to the ALA</h2>
 		    </div>
 
-		    <a href="${FacebookClientUrl}">
-			<button class="btn btn-lg btn-facebook btn-block margin-bottom-1 font-xxsmall" type="button">Sign in with Facebook</button>
-		    </a>
-
-		    <a href="${TwitterClientUrl}">
-			<button class="btn btn-lg btn-twitter btn-block margin-bottom-1 font-xxsmall" type="button">Sign in with Twitter</button>
-		    </a>
-
-		    <a href="${Google2ClientUrl}">
-			<button class="btn btn-lg btn-google btn-block margin-bottom-1 font-xxsmall" type="button">Sign in with Google</button>
-		    </a>
+		    <a href="${FacebookClientUrl}" class="btn btn-lg btn-facebook btn-block margin-bottom-1 font-xxsmall">Sign in with Facebook</a>
+		    <a href="${TwitterClientUrl}"  class="btn btn-lg btn-twitter btn-block margin-bottom-1 font-xxsmall">Sign in with Twitter</a>
+		    <a href="${Google2ClientUrl}"  class="btn btn-lg btn-google btn-block margin-bottom-1 font-xxsmall">Sign in with Google</a>
 
 		    <p class="separator t-center margin-bottom-2"><span>Or</span></p>
 
