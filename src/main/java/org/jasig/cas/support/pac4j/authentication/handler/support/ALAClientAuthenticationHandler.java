@@ -100,7 +100,10 @@ public final class ALAClientAuthenticationHandler extends AbstractPreAndPostProc
             clientCredentials.setUserProfile(userProfile);
 
 	    final String email = AttributeParser.lookup("email", userProfile);
-	    if (email==null) {
+	    logger.debug("email : {}", email);
+
+	    if (email==null || "".equals(email)) {
+		logger.debug("Invalid email : {}, authentication aborted!", email);
 		throw new FailedLoginException("No email address found; email address is required to lookup (and/or create) ALA user!");
 	    }
 
