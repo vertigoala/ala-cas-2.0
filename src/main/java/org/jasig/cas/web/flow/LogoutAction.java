@@ -72,7 +72,7 @@ public final class LogoutAction extends AbstractLogoutAction {
             }
         }
 
-        final String service = request.getParameter("service");
+        final String service = request.getParameter("url"); //NOTE: *ALL* the existing ALA apps (cas clients) do use parameter named "url"
         if (this.followServiceRedirects && service != null) {
             final RegisteredService rService = this.servicesManager.findServiceBy(new SimpleWebApplicationServiceImpl(service));
 
