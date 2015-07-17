@@ -99,6 +99,8 @@ TODO: add ALA licensing info.
 					   placeholder="password"
 					   tabindex="2" />
 
+			    <a class="forgot" title="Password Reset" href="/userdetails/registration/forgottenPassword" target="_blank">Forgot?</a>
+
 			    <!-- TODO: remove, this is only for reference
 				 <label for="inputPassword" class="sr-only">Password</label>
 				 <input type="password" id="inputPassword" class="form-control input-lg" placeholder="Password" required />
