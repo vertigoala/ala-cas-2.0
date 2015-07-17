@@ -117,8 +117,9 @@
               <li><a href="#">My profile</a></li>
 
               <li class="divider"></li>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Register</a></li>
+              <li><a href="/cas/login">Login</a></li>
+              <li><a href="/cas/logout">Logout</a></li>
+              <li><a href="/userdetails/registration/createAccount">Register</a></li>
             </ul>
           </li>
           </ul>
