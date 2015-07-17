@@ -107,6 +107,13 @@ TODO: add ALA licensing info.
 			    -->
 			</div>
 
+			<div class="checkbox margin-bottom-2">
+			    <label>
+				<input type="checkbox" id="rememberMe" name="rememberMe" value="true" tabindex="3" />
+				<span class="checkbox-label">Remember me</span>
+			    </label>
+			</div>
+
 			<input type="hidden" name="lt"        value="${loginTicket}" />
 			<input type="hidden" name="execution" value="${flowExecutionKey}" />
 			<input type="hidden" name="_eventId"  value="submit" />
