@@ -114,7 +114,7 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">My profile</a></li>
+              <li><a href="/userdetails/myprofile">My profile</a></li>
 
               <li class="divider"></li>
               <li><a href="/cas/login">Login</a></li>
