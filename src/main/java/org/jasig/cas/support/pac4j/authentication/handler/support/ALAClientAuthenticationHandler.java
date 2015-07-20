@@ -38,6 +38,7 @@ import au.org.ala.cas.UserCreator;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
+import java.util.regex.Pattern;
 import au.org.ala.cas.AttributeParser;
 
 /**
@@ -49,6 +50,8 @@ import au.org.ala.cas.AttributeParser;
  */
 @SuppressWarnings("unchecked")
 public final class ALAClientAuthenticationHandler extends AbstractPreAndPostProcessingAuthenticationHandler {
+
+    static final Pattern EMAIL_PATTERN  = Pattern.compile("^.+@.+\\..+$");
 
     /**
      * The clients for authentication.
@@ -102,7 +105,7 @@ public final class ALAClientAuthenticationHandler extends AbstractPreAndPostProc
 	    final String email = AttributeParser.lookup("email", userProfile);
 	    logger.debug("email : {}", email);
 
-	    if (email==null || "".equals(email)) {
+	    if (email==null || !EMAIL_PATTERN.matcher(email).matches()) {
 		logger.debug("Invalid email : {}, authentication aborted!", email);
 		throw new FailedLoginException("No email address found; email address is required to lookup (and/or create) ALA user!");
 	    }
