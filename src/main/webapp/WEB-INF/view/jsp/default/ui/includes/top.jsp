@@ -62,7 +62,7 @@
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="${ala.base.url}">
           <img alt="Brand" class="img-responsive" src="img/supporting-graphic-element-flat.png">
           </a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -71,20 +71,20 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand font-xsmall" href="#">The Atlas Of Living Australia</a>
+        <a class="navbar-brand font-xsmall" href="${ala.base.url}">The Atlas Of Living Australia</a>
     </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li >
-            <a href="#">
+            <a href="${ala.contactus.url}">
               Contact us
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li >
-            <a href="#">Get involved</a>
+            <a href="${ala.getinvolved.url}">Get involved</a>
           </li>
 
           <li class="dropdown font-xsmall">
@@ -93,29 +93,30 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Spatial portal</a></li>
-              <li ><a href="#">Occurrence search</a></li>
-              <li ><a href="#">Fish map</a></li>
-              <li ><a href="#">Regions</a></li>
-              <li ><a href="#">Explore your area</a></li>
+              <li><a href="${spatial.base.url}">Spatial portal</a></li>
+              <li ><a href="${biocache.base.url}">Occurrence search</a></li>
+              <li ><a href="${fish.base.url}">Fish map</a></li>
+              <li ><a href="${regions.base.url}">Regions</a></li>
+              <li ><a href="${biocache.explore.url}">Explore your area</a></li>
 
               <li class="divider"></li>
-              <li><a href="#">Record a sighting</a></li>
-              <li><a href="#">Collections</a></li>
-              <li><a href="#">DigiVol</a></li>
-              <li><a href="#">Fieldcapture</a></li>
-              <li><a href="#">Soils to satellite</a></li>
-              <li><a href="#">Traits, species lists</a></li>
+              <li><a href="${sightings.base.url}">Record a sighting</a></li>
+              <li><a href="${collections.base.url}">Collections</a></li>
+              <li><a href="${volunteer.base.url}">DigiVol</a></li>
+              <li><a href="${fieldcapture.merit.url}">Fieldcapture</a></li>
+              <li><a href="${soils2satelite.base.url}">Soils to satellite</a></li>
+              <li><a href="${lists.base.url}">Traits, species lists</a></li>
+              <li><a href="${phylolink.base.url}">Traits, species lists</a></li
 
               <li class="divider"></li>
-              <li><a href="#">Community portals</a></li>
-              <li><a href="#">Dashboard</a></li>
-              <li><a href="#">Datasets browser</a></li>
+              <li><a href="${community.base.url}">Community portals</a></li>
+              <li><a href="${dashboard.base.url}">Dashboard</a></li>
+              <li><a href="${collections.dataset.url}">Datasets browser</a></li>
             </ul>
           </li>
 
         </ul>
-        <form class="navbar-form navbar-left" role="search">
+        <form class="navbar-form navbar-left" role="search" action="${ala.search.url}" method="get">
           <div class="form-group">
             <input type="text" class="form-control" placeholder="Search the Atlas"></div>
           <button type="submit" class="btn btn-primary">Search</button>
