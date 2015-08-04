@@ -134,7 +134,7 @@
 	    <type>jar</type>
 	    <scope>runtime</scope>
 	</dependency>
-	<!-- TODO: review the use of cas-server-integration-restlet, i am slightly doubful we use it at all. -->
+	<!-- NOTE: cas-server-integration-restlet/restlet, is required/used by ALA mobile apps -->
 	<dependency>
 	    <groupId>org.jasig.cas</groupId>
 	    <artifactId>cas-server-integration-restlet</artifactId>
