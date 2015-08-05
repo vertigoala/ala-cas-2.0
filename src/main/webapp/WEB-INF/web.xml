@@ -59,8 +59,25 @@
     </init-param>
   </filter>
   <filter-mapping>
-    <filter-name>requestParameterSecurityFilter</filter-name>
-    <url-pattern>/*</url-pattern>
+      <filter-name>requestParameterSecurityFilter</filter-name>
+      <!-- NOTE: because of a bug in cas-4.0.x https://github.com/Jasig/cas/issues/886
+	   restlet does NOT work with this filter.
+	   We need to exclude restlet from this filter. However servlet filters do not support
+	   exclusion (that could be used to exclude only restlet here), so to exclude restlet
+	   we explicitelly include/list all the other URLs except restlet here.
+      -->
+      <url-pattern>/authorizationFailure.html</url-pattern>
+      <url-pattern>/CentralAuthenticationService</url-pattern>
+      <url-pattern>/login</url-pattern>
+      <url-pattern>/logout</url-pattern>
+      <url-pattern>/p3/proxyValidate</url-pattern>
+      <url-pattern>/p3/serviceValidate</url-pattern>
+      <url-pattern>/proxy</url-pattern>
+      <url-pattern>/proxyValidate</url-pattern>
+      <url-pattern>/serviceValidate</url-pattern>
+      <url-pattern>/statistics</url-pattern>
+      <url-pattern>/status</url-pattern>
+      <url-pattern>/validate</url-pattern>
   </filter-mapping>
 
   <filter>
