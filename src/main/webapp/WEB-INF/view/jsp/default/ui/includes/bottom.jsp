@@ -21,41 +21,41 @@
 
       <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
         <ul class="link-list">
-          <li class="heading"><a href="${ala.aboutcs.url}">Citizen Science &rarr;</a></li>
-          <li><a href="${ala.aboutcs.url}">About CS in the ALA</a></li>
-          <li><a href="${volunteer.base.url}">DigiVol Portal</a></li>
-          <li><a href="${sightings.base.url}">Record a sighting</a></li>
-          <li><a href="${ala.getinvolved.url}">Upload media</a></li>
+          <li class="heading"><a href="http://www.ala.org.au/get-involved/citizen-science">Citizen Science &rarr;</a></li>
+          <li><a href="http://www.ala.org.au/get-involved/citizen-science">About CS in the ALA</a></li>
+          <li><a href="http://volunteer.ala.org.au/">DigiVol Portal</a></li>
+          <li><a href="http://sightings.ala.org.au/">Record a sighting</a></li>
+          <li><a href="http://www.ala.org.au/get-involved/">Upload media</a></li>
         </ul>
       </div>
 
       <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
         <ul class="link-list">
-          <li class="heading"><a href="${ala.about.url}">Atlas Features &rarr;</a></li>
-          <li><a href="${dashboard.base.url}">Dashboard</a></li>
-          <li><a href="${sandbox.base.url}">Sandbox</a></li>
-          <li><a href="${api.base.url}">API</a></li>
-          <li><a href="${ala.mobileapps.url}">Atlas Mobile Apps</a></li>
+          <li class="heading"><a href="http://www.ala.org.au/about-the-atlas/">Atlas Features &rarr;</a></li>
+          <li><a href="http://dashboard.ala.org.au/">Dashboard</a></li>
+          <li><a href="http://sandbox.ala.org.au/">Sandbox</a></li>
+          <li><a href="http://api.ala.org.au/">API</a></li>
+          <li><a href="http://www.ala.org.au/about-the-atlas/downloadable-tools/ala-mobile-app/">Atlas Mobile Apps</a></li>
         </ul>
       </div>
 
       <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
         <ul class="link-list">
-          <li class="heading"><a href="${biocache.base.url}">Atlas Data &rarr;</a></li>
-          <li><a href="${ala.sensitivedata.url}">Sensitive Data</a></li>
-          <li><a href="${ala.dataintegration.url}">Data integration</a></li>
-          <li><a href="${ala.datasetupload.url}">Dataset upload</a></li>
-          <li><a href="${lists.base.url}">Species list upload</a></li>
+          <li class="heading"><a href="http://biocache.ala.org.au/">Atlas Data &rarr;</a></li>
+          <li><a href="http://www.ala.org.au/faq/data-sensitivity/">Sensitive Data</a></li>
+          <li><a href="http://www.ala.org.au/about-the-atlas/how-we-integrate-data/">Data integration</a></li>
+          <li><a href="http://www.ala.org.au/get-involved/upload-data-sets/">Dataset upload</a></li>
+          <li><a href="http://lists.ala.org.au/">Species list upload</a></li>
         </ul>
       </div>
 
       <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
         <ul class="link-list">
-          <li class="heading"><a href="${ala.contactus.url}">Contact Us &rarr;</a></li>
-          <li><a href="${ala.communications.url}">Communications</a></li>
-          <li><a href="${ala.about.url}">About the Atlas</a></li>
-          <li><a href="${ala.educational.url}">Educational Resources</a></li>
-          <li><a href="${ala.faq.url}">FAQ</a></li>
+          <li class="heading"><a href="http://www.ala.org.au/about-the-atlas/contact-us/">Contact Us &rarr;</a></li>
+          <li><a href="http://www.ala.org.au/about-the-atlas/communications-centre/">Communications</a></li>
+          <li><a href="http://www.ala.org.au/about-the-atlas/">About the Atlas</a></li>
+          <li><a href="http://www.ala.org.au/education-resources/">Educational Resources</a></li>
+          <li><a href="http://www.ala.org.au/faq/">FAQ</a></li>
         </ul>
       </div>
 
@@ -96,7 +96,7 @@
           </p>
           <p><img class="img-responsive" src="img/creativecommons.png"></p><!-- Logo -->
           <p>
-            Provider content may be covered by other <a href="${ala.termsofuse.url}">Terms of Use</a>.
+            Provider content may be covered by other <a href="http://www.ala.org.au/about-the-atlas/terms-of-use/">Terms of Use</a>.
           </p>
       </div>
   </div><!-- End row -->
@@ -112,7 +112,7 @@
             <li><a class="soc-facebook" href="https://www.facebook.com/atlasoflivingaustralia" title="Facebook"><i class="fa fa-facebook"></i></a></li>
             <li><a class="soc-twitter" href="https://twitter.com/atlaslivingaust" title="Twitter"><i class="fa fa-twitter"></i></a></li>
             <!-- <li><a class="soc-google-plus" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li> -->
-            <li><a class="soc-envelope" href="${ala.contactus.url}" title="Email"><i class="fa fa-envelope"></i></a></li>
+            <li><a class="soc-envelope" href="http://www.ala.org.au/about-the-atlas/contact-us/" title="Email"><i class="fa fa-envelope"></i></a></li>
             <!-- <li><a class="soc-rss" href="#" title="RSS"><i class="fa fa-rss"></i></a></li> -->
             <!-- <li><a class="soc-bell" href="#" title="My Alerts"><i class="fa fa-bell"></i></a></li> -->
           </ul>
@@ -120,9 +120,9 @@
 
         <div class="col-xs-12 col-sm-6">
           <ul class="footer-nav list-inline">
-            <li ><a href="${ala.contactus.url}">Contact Us</a></li>
-            <li ><a href="${ala.getinvolved.url}">Get Involved</a></li>
-            <li ><a href="${ala.systemstatus.url}">System status</a></li>
+            <li ><a href="http://www.ala.org.au/about-the-atlas/contact-us/">Contact Us</a></li>
+            <li ><a href="http://www.ala.org.au/get-involved/">Get Involved</a></li>
+            <li ><a href="http://www.ala.org.au/system-status/">System status</a></li>
           </ul>
         </div>
 
