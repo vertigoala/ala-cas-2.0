@@ -7,7 +7,7 @@ branches:
   - master
 before_install:
 - mkdir -p ~/.m2; wget -q -O ~/.m2/settings.xml https://raw.githubusercontent.com/AtlasOfLivingAustralia/travis-build-configuration/master/travis_maven_settings_simple.xml
-script: mvn clean resources:resources install deploy
+script: mvn clean install deploy
 env:
   global:
   - secure: CRXDKMWfWv4rEzwg4TWls/nAE5ej7sKrXIDVHCLBUjGHKr+xzV2oed4nblVbnnLrcZf6jgAJAT+cbEf5doREseHXIPUxplhgsCWGE+wEvBsjutI1YuSIS16jjzJSA+xz9p2ivPIDZZCzjPTjaLddPMXhYuZRGvCyw4ps7hzdfHFsUDdQMDK5vyiw90Dz64Yhj+IDjaJHGBS94+Yp2OPz1ymVX+qqdQY5WkHAes23IFr+oQHTN2MY2Vu2zGdV39OQXba/DCBqiq4f2WdYWquESMx3k26KK9LzJaNU5wvXn4nWOtKCFmcOr7smtszfTeqt9MsgRn5qxaC8ZJp8R48MizbqONrP3vDQ23/btyVGkA7hvGBDkgSRd81IFOdsH6jdha4/4Lru3a9ocxnNf5suLSVctk/uUcFxgyXWYdDaT3FnQPAuU/GbMQgZYIqJIzNbA+swpRtSBJv8qz7vQMioCRhoC2Dhfhg/MR5irEuwcyXDHNTp80/7+PfGEQy71R0oTXzlprB1m3wDggUUjkPBZp2KlDrEvsSHjXXCe1zMaJiZdbzvRvQEDf+ZR5/Rw8crCxvMtdyuq1p5gjoi3MO9mYCQx5qy8ah+2ApFR6r9jr+xdY2cJglhk1g1dUU2xFVdCuEK1mUd1qJ7R4zYQsUrL+PCnf7uz7A7hLqaTxeYrP4=
