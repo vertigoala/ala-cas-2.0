@@ -44,6 +44,22 @@
 
         </plugins>
         <finalName>cas</finalName>
+
+	<!-- NOTE: this is to set the top.jsp's:
+	     <meta name="app.version" content="${version}"/>
+	     to this war's version (for example: 2.0.2, or 2.0.3-SNAPSHOT), it work as follows:
+	     1. mvn resources:resources extracts the version number from this pom.xml and stores the value in ./target/classes/ala-cas-build.properties
+	     2. fmt taglib is used to read/use the value from cas/WEB-INF/classes/ala-cas-build.properties on runtime in top.jsp
+	-->
+	<resources>
+	    <resource>
+		<directory>src</directory>
+		<filtering>true</filtering>
+		<includes>
+		    <include>**/ala-cas-build.properties</include>
+		</includes>
+	    </resource>
+	</resources>
     </build>
 
     <dependencies>
