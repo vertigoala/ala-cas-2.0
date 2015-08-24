@@ -53,26 +53,10 @@
 	<property name="secret" value="${pac4j.twitter.consumer.secret}" />
     </bean>
 
-    <bean id="github" class="org.pac4j.oauth.client.GitHubClient">
-	<property name="key" value="${pac4j.github.consumer.key}" />
-	<property name="secret" value="${pac4j.github.consumer.secret}" />
-    </bean>
-
     <bean id="google" class="org.pac4j.oauth.client.Google2Client">
 	<property name="key" value="${pac4j.google.consumer.key}" />
 	<property name="secret" value="${pac4j.google.consumer.secret}" />
 	<property name="scope" value="EMAIL_AND_PROFILE" />
-    </bean>
-
-    <bean id="linkedin" class="org.pac4j.oauth.client.LinkedIn2Client">
-	<property name="key" value="${pac4j.linkedin.consumer.key}" />
-	<property name="secret" value="${pac4j.linkedin.consumer.secret}" />
-	<property name="scope" value="r_emailaddress" />
-    </bean>
-
-    <bean id="windows" class="org.pac4j.oauth.client.WindowsLiveClient">
-	<property name="key" value="${pac4j.windows.consumer.key}" />
-	<property name="secret" value="${pac4j.windows.consumer.secret}" />
     </bean>
 
     <bean id="clients" class="org.pac4j.core.client.Clients">
@@ -81,10 +65,7 @@
 	    <list>
 		<ref bean="facebook" />
 		<ref bean="twitter" />
-		<ref bean="github" />
 		<ref bean="google" />
-		<ref bean="linkedin" />
-		<ref bean="windows" />
 	    </list>
 	</property>
     </bean>
