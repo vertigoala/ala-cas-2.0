@@ -70,7 +70,7 @@ public class UserCreatorALA implements UserCreator {
 
 	final int rows_affected =
 	    this.jdbcTemplate.update(this.sql,
-				     email,                            //email
+				     email.toLowerCase(),              //email
 				     firstname,                        //firstname
 				     lastname,                         //lastname
 				     password,                         //password

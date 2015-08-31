@@ -126,9 +126,11 @@ public final class ALAClientAuthenticationHandler extends AbstractAuthentication
 		throw new FailedLoginException("No email address found; email address is required to lookup (and/or create) ALA user!");
 	    }
 
+	    //NOTE: just in case social media gave us email containing Upper case letters
+	    final String emailAddress = email.toLowerCase();
 	    final Credential alaCredential = new Credential() {
 		    public String getId() {
-			return email;
+			return emailAddress;
 		    }
 		};
 
@@ -138,7 +140,7 @@ public final class ALAClientAuthenticationHandler extends AbstractAuthentication
 	    // does the ALA user exist?
 	    if (!principal.getAttributes().containsKey("userid")) { //TODO: make this nice and configurable
 		// create a new ALA user in the userdetails DB
-		logger.debug("user {} not found in ALA userdetails DB, creating new ALA user for: {}.", email, email);
+		logger.debug("user {} not found in ALA userdetails DB, creating new ALA user for: {}.", emailAddress, emailAddress);
 		this.userCreator.createUser(userProfile); //TODO: we can check this for failed user creation, to be accurate
 
 		// re-try (we have to retry, because that is how we get the required "userid")
