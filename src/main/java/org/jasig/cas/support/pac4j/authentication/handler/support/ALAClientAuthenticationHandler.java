@@ -136,16 +136,18 @@ public final class ALAClientAuthenticationHandler extends AbstractAuthentication
 
 	    // get the ALA user attributes from the userdetails DB ("userid", "firstname", "lastname", "authority")
 	    Principal principal = this.principalResolver.resolve(alaCredential);
+	    logger.debug("{} resolved principal: {}", this.principalResolver, principal);
 
 	    // does the ALA user exist?
-	    if (!principal.getAttributes().containsKey("userid")) { //TODO: make this nice and configurable
+	    if (!ALAClientAuthenticationHandler.validatePrincipalALA(principal)) {
 		// create a new ALA user in the userdetails DB
 		logger.debug("user {} not found in ALA userdetails DB, creating new ALA user for: {}.", emailAddress, emailAddress);
 		this.userCreator.createUser(userProfile); //TODO: we can check this for failed user creation, to be accurate
 
 		// re-try (we have to retry, because that is how we get the required "userid")
 		principal = this.principalResolver.resolve(alaCredential);
-		if (!principal.getAttributes().containsKey("userid")) {
+		logger.debug("{} resolved principal: {}", this.principalResolver, principal);
+		if (!ALAClientAuthenticationHandler.validatePrincipalALA(principal)) {
 		    // we failed to lookup ALA user (most likely because the creation above failed), complain, throw exception, etc.
 		    throw new FailedLoginException("Unable to create ALA user for " + clientCredentials);
 		}
@@ -157,5 +159,11 @@ public final class ALAClientAuthenticationHandler extends AbstractAuthentication
         }
 
         throw new FailedLoginException("Provider did not produce profile for " + clientCredentials);
+    }
+
+    static boolean validatePrincipalALA(final Principal principal) {
+	return (principal != null)
+	    && (principal.getAttributes() != null)
+	    && principal.getAttributes().containsKey("userid");
     }
 }
