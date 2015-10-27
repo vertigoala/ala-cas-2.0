@@ -68,7 +68,7 @@ TODO: add ALA licensing info.
 						path="username"
 						autocomplete="off"
 						htmlEscape="true"
-						placeholder="username" autofocus="autofocus" />
+						placeholder="email address" autofocus="autofocus" />
 				</c:otherwise>
 			    </c:choose>
 			    <!-- TODO: remove, this is only for reference
