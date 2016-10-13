@@ -152,12 +152,12 @@
 		</dependency>
 		<!-- NOTE: cas-server-integration-restlet/restlet, is required/used by 
 			ALA mobile apps -->
-		<dependency>
+		<!-- dependency DEPRECATED AND NOT RELEASED ANYMORE>
 			<groupId>org.jasig.cas</groupId>
 			<artifactId>cas-server-integration-restlet</artifactId>
 			<version>${cas.version}</version>
 			<type>jar</type>
-		</dependency>
+		</dependency -->
 
 		<!-- TODO: verify which pac4j modules we really need -->
 		<dependency>
@@ -178,8 +178,8 @@
 	</dependencies>
 
 	<properties>
-		<cas.version>4.0.4</cas.version>
-		<pac4j.version>1.7.1</pac4j.version>
+		<cas.version>4.2.6</cas.version>
+		<pac4j.version>1.8.9</pac4j.version>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
