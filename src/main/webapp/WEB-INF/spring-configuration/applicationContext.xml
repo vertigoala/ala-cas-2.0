@@ -41,7 +41,7 @@
     -->
     <aop:aspectj-autoproxy/>
 
-    <bean id="facebook" class="org.pac4j.oauth.client.FacebookClient">
+    <bean id="facebook" class="au.org.ala.cas.facebook.FacebookClient">
 	<property name="key" value="${pac4j.facebook.consumer.key}" />
 	<property name="secret" value="${pac4j.facebook.consumer.secret}" />
 	<property name="scope" value="email" />
