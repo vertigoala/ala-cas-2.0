@@ -24,7 +24,7 @@
           <li><a href="https://biocache.ala.org.au/explore/your-area">Explore your area</a></li>
           <li><a href="http://regions.ala.org.au/">Explore regions</a></li>
           <li><a href="https://biocache.ala.org.au/search">Search occurrence records</a></li>
-          <li><a href="::centralServer::/sites-and-services/">Sites &amp; services</a></li>
+          <li><a href="https://www.ala.org.au/sites-and-services/">Sites &amp; services</a></li>
         </ul>
       </div>
 
@@ -48,7 +48,7 @@
         <ul class="link-list">
           <li><a href="https://biocollect.ala.org.au/">Join a citizen science project</a></li>
           <li><a href="https://sightings.ala.org.au/">Record a sighting</a></li>
-          <li><a href="::centralServer::/submit-dataset-to-ala/">Submit a dataset to the ALA</a></li>
+          <li><a href="https://www.ala.org.au/submit-dataset-to-ala/">Submit a dataset to the ALA</a></li>
           <li><a href="https://digivol.ala.org.au/">Digitise a record</a></li>
         </ul>
       </div>
@@ -56,15 +56,15 @@
       <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
         <h5 class="footer-second-row">Learn about the ALA</h5>
         <ul class="link-list">
-          <li><a href="::centralServer::/who-we-are/">Who we are</a></li>
-          <li><a href="::centralServer::/how-to-use-ala/">How to use the ALA</a></li>
-          <li><a href="::centralServer::/how-to-work-with-data/">How to work with data</a></li>
-          <li><a href="::centralServer::/how-to-cite-ala/">How to cite the ALA</a></li>
-          <li><a href="::centralServer::/education-resources/">Education resources</a></li>
-          <li><a href="::centralServer::/ala-and-indigenous-ecological-knowledge-iek/">Indigenous Ecological Knowledge</a></li>
-          <li><a href="::centralServer::/blogs-news/">ALA News</a></li>
-          <li><a href="::centralServer::/about-the-atlas/contact-us/">Contact us</a></li>
-          <li><a href="::centralServer::/about-the-atlas/feedback-form/">Feedback form</a></li>
+          <li><a href="https://www.ala.org.au/who-we-are/">Who we are</a></li>
+          <li><a href="https://www.ala.org.au/how-to-use-ala/">How to use the ALA</a></li>
+          <li><a href="https://www.ala.org.au/how-to-work-with-data/">How to work with data</a></li>
+          <li><a href="https://www.ala.org.au/how-to-cite-ala/">How to cite the ALA</a></li>
+          <li><a href="https://www.ala.org.au/education-resources/">Education resources</a></li>
+          <li><a href="https://www.ala.org.au/ala-and-indigenous-ecological-knowledge-iek/">Indigenous Ecological Knowledge</a></li>
+          <li><a href="https://www.ala.org.au/blogs-news/">ALA News</a></li>
+          <li><a href="https://www.ala.org.au/about-the-atlas/contact-us/">Contact us</a></li>
+          <li><a href="https://www.ala.org.au/about-the-atlas/feedback-form/">Feedback form</a></li>
         </ul>
       </div>
     </div>
@@ -73,21 +73,21 @@
       <div class="col-md-4 col-sm-12 footer-bonus-item">
         <h5 class="footer-bonus-heading">Explore the Spatial Portal</h5>
         <a href="https://spatial.ala.org.au/" title="Spatial portal" class="footer-bonus-link">
-          <img class="img-responsive" src="::headerFooterServer::/img/footer-bonus-spatial-portal-icon.png" alt="Spatial Portal icon">
+          <img class="img-responsive" src="https://www.ala.org.au/commonui-bs3-v2/commonui-bs3/img/footer-bonus-spatial-portal-icon.png" alt="Spatial Portal icon">
         </a>
         <p class="footer-bonus-description"><a href="https://spatial.ala.org.au/">Explore species occurrence records</a> in the context of their environment. Find records and model species distributions. Export reports, maps and data.</p>
       </div>
       <div class="col-md-4 col-sm-12 footer-bonus-item">
         <h5 class="footer-bonus-heading">Join a Citizen Science Project</h5>
         <a href="https://biocollect.ala.org.au/" title="Contribute your sightings" class="footer-bonus-link">
-          <img class="img-responsive" src="::headerFooterServer::/img/footer-bonus-cit-science-icon.png" alt="Citizen Science icon">
+          <img class="img-responsive" src="https://www.ala.org.au/commonui-bs3-v2/commonui-bs3/img/footer-bonus-cit-science-icon.png" alt="Citizen Science icon">
         </a>
         <p class="footer-bonus-description">Find out how you can <a href="https://biocollect.ala.org.au/">contribute to a citizen science project</a> in your area, or explore one of the many citizen science projects supported by the ALA.</p>
       </div>
       <div class="col-md-4 col-sm-12 footer-bonus-item">
         <h5 class="footer-bonus-heading">Record a sighting</h5>
         <a href="https://sightings.ala.org.au/" title="Did you see something?" class="footer-bonus-link">
-          <img class="img-responsive" src="::headerFooterServer::/img/footer-bonus-record-sighting-icon.png" alt="Sightings icon">
+          <img class="img-responsive" src="https://www.ala.org.au/commonui-bs3-v2/commonui-bs3/img/footer-bonus-record-sighting-icon.png" alt="Sightings icon">
         </a>
         <p class="footer-bonus-description">Did you see something? Photograph something? <a href="https://sightings.ala.org.au/">Contribute your sighting</a> to the Atlas of Living Australia.</p>
       </div>
@@ -121,9 +121,9 @@
           </li>
 
           <li class="footer-item footer-item-text footer-item-start"><a href="https://www.csiro.au/en/About/Footer/Copyright">Copyright</a></li>
-          <li class="footer-item footer-item-text"><a href="::centralServer::/about-the-atlas/terms-of-use/">Terms of use</a></li>
-          <li class="footer-item footer-item-text"><a href="::centralServer::/about-the-atlas/contact-us/">Contact us</a></li>
-          <li class="footer-item footer-item-status"><a href="::centralServer::/system-status/">System status</a></li>
+          <li class="footer-item footer-item-text"><a href="https://www.ala.org.au/about-the-atlas/terms-of-use/">Terms of use</a></li>
+          <li class="footer-item footer-item-text"><a href="https://www.ala.org.au/about-the-atlas/contact-us/">Contact us</a></li>
+          <li class="footer-item footer-item-status"><a href="https://www.ala.org.au/system-status/">System status</a></li>
         </ul>
       </div>
     </div>
