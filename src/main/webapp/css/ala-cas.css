@@ -22,5 +22,5 @@
 .btn-facebook{background-color: #507CBE;color: white;} .btn-facebook:hover{background-color:#4B73AE;color: white;}
 .btn-twitter{background-color: #55acee;color: white;} .btn-twitter:hover{background-color:#5CBBDC;color: white;}
 .btn-google{background-color: #dd4b39;color: white;} .btn-google:hover{background-color:#CE4636;color: white;}
-.forgot {position:absolute;top:446px;right:31px;font-size:13px;}
-.checkbox-label {font-size:13px;line-height:1.62em; color:#637073;}
+.forgot {position:absolute;top:468px;right:41px;font-size:16px;}
+.checkbox-rememberMe label {font-size:14px;color:#637073;}

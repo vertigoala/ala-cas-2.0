@@ -32,9 +32,6 @@ TODO: add ALA licensing info.
 	<div class="panel panel-default">
 	    <div class="panel-body">
 
-		<div class="col-xs-12">
-		    <!-- form, TODO: the social media buttons do not have to be inside a form -->
-
 		    <div class="logo-brand">
 			<div class="brand-layout-control">
 			    <img alt="Brand" class="img-responsive" src="img/supporting-graphic-element-flat-medium.png" />
@@ -49,7 +46,7 @@ TODO: add ALA licensing info.
 		    <p class="separator t-center margin-bottom-2"><span>Or</span></p>
 
 		    <form:form class="form-signin" method="post" id="fm1" commandName="${commandName}" htmlEscape="true">
-
+				<fieldset>
 			<div class="form-group" id="ala-login-fields">
 			    <label for="username" class="sr-only">
 				<spring:message code="screen.welcome.label.netid" />
@@ -73,13 +70,9 @@ TODO: add ALA licensing info.
 						htmlEscape="true"
 						placeholder="email address" autofocus="autofocus" />
 				</c:otherwise>
-			    </c:choose>
-			    <!-- TODO: remove, this is only for reference
-				 <label for="inputEmail" class="sr-only">Email address or username</label>
-				 <input type="email" id="inputEmail" class="form-control input-lg" placeholder="Email address or username" required autofocus />
-			    -->
+				</c:choose>
 			</div>
-			
+
 			<div class="form-group margin-bottom-2">
 			    <label for="password" class="sr-only">
 				<spring:message code="screen.welcome.label.password" />
@@ -103,11 +96,6 @@ TODO: add ALA licensing info.
 					   tabindex="2" />
 
 			    <a class="forgot" title="Password Reset" href="/userdetails/registration/forgottenPassword" target="_blank">Forgot?</a>
-
-			    <!-- TODO: remove, this is only for reference
-				 <label for="inputPassword" class="sr-only">Password</label>
-				 <input type="password" id="inputPassword" class="form-control input-lg" placeholder="Password" required />
-			    -->
 			</div>
 
 			<!-- Alert Information -->
@@ -115,23 +103,17 @@ TODO: add ALA licensing info.
 			</form:errors>
 			<!-- End Alert Information -->
 
-			<div class="checkbox margin-bottom-2">
+			<div class="checkbox checkbox-rememberMe margin-bottom-2">
 			    <label>
-				<input type="checkbox" id="rememberMe" name="rememberMe" value="true" tabindex="3" />
-				<span class="checkbox-label">Remember me</span>
+					<input type="checkbox" id="rememberMe" name="rememberMe" value="true" tabindex="3" /> Remember me
 			    </label>
 			</div>
+			</fieldset>
 
 			<input type="hidden" name="lt"        value="${loginTicket}" />
 			<input type="hidden" name="execution" value="${flowExecutionKey}" />
 			<input type="hidden" name="_eventId"  value="submit" />
 
-			<!-- TODO: remove, this is only for reference
-			     <input class="btn-submit"
-			     name="submit"
-			     accesskey="l"
-			     value="<spring:message code="screen.welcome.button.login" />" tabindex="4" type="submit" />
-			-->
 			<button class="btn btn-lg btn-primary btn-block margin-bottom-1 font-xxsmall" accesskey="l" type="submit" tabindex="3">
 			    <spring:message code="screen.welcome.button.login" />
 			</button>
@@ -140,17 +122,14 @@ TODO: add ALA licensing info.
 			     servlet mapping or deploying userdetails on a diff host.
 			-->
 			<p class="small text-center">Don't have an account? <a href="/userdetails/registration/createAccount">Sign up now</a>.</p>
-			</fieldset>
+
 		    </form:form>
 
-		</div>
-
 	    </div>
-	    <!-- <div class="panel-footer"></div> -->
 	</div>
 
     </div><!-- End main col -->
 
 </div><!-- End container#main -->
-	    
+
 <jsp:directive.include file="includes/bottom.jsp" />

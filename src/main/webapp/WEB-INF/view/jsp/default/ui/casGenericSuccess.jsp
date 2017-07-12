@@ -21,22 +21,20 @@
 <jsp:directive.include file="includes/top.jsp" />
 
 <div class="container" id="main">
-    <!-- Main col -->
-    <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-	<div class="panel panel-default">
-	    <div class="panel-body">
-		<div class="col-xs-12">
-		    <div id="msg" class="success">
-			<h3 class="heading-medium"><spring:message code="screen.success.header" /></h3>
-			<p class="lead color--primary-red"><spring:message code="screen.success.success" /></p>
-			<div class="alert alert-danger alert-dismissible" role="alert">
-			    <spring:message code="screen.success.security" />
+	<!-- Main col -->
+	<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div id="msg" class="success">
+					<h3 class="heading-medium"><spring:message code="screen.success.header" /></h3>
+					<p class="lead color--primary-red"><spring:message code="screen.success.success" /></p>
+					<div class="alert alert-danger alert-dismissible" role="alert">
+						<spring:message code="screen.success.security" />
+					</div>
+				</div>
 			</div>
-		    </div>
 		</div>
-	    </div>
 	</div>
-    </div>
 </div>
 
 <jsp:directive.include file="includes/bottom.jsp" />
