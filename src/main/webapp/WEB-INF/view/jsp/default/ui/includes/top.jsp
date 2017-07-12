@@ -31,6 +31,7 @@
 
     <!-- ALA -->
     <link href="css/ala-styles.css" rel="stylesheet" />
+    <link href="css/ala-cas.css" rel="stylesheet" />
 
     <!-- favicon -->
      	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
