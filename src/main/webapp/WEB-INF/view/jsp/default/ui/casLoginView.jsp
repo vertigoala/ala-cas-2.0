@@ -2,6 +2,18 @@
 TODO: add ALA licensing info. 
 --%>
 <jsp:directive.include file="includes/top.jsp" />
+<section id="breadcrumb">
+	<div class="container">
+		<div class="row">
+			<nav aria-label="Breadcrumb" role="navigation">
+				<ol class="breadcrumb-list">
+					<li><a href="https://www.ala.org.au/">Home</a></li>
+					<li class="active">Authentication</li>
+				</ol>
+			</nav>
+		</div>
+	</div>
+</section>
 
 <c:if test="${not pageContext.request.secure}">
     <div id="msg" class="errors">
@@ -16,17 +28,8 @@ TODO: add ALA licensing info.
     <!-- Main col -->
     <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
 	<h1 class="hidden">Welcome the Atlas of Living Australia</h1>
-	<ol class="breadcrumb">
-	    <li><a class="font-xxsmall" href="#">Home</a></li>
-	    <!-- <li><a class="font-xxsmall" href="#">About</a></li> -->
-	    <li class="font-xxsmall active">Authentication</li>
-	</ol>
-	<!-- <h2 class="heading-medium">Understanding The Atlas of Living Australia</h2> -->
 
 	<div class="panel panel-default">
-	    <!-- <div class="panel-heading">
-		 <h3 class="heading-underlined">Login to the ALA</h3>
-		 </div> -->
 	    <div class="panel-body">
 
 		<div class="col-xs-12">
