@@ -12,7 +12,7 @@
 	<groupId>au.org.ala</groupId>
 	<artifactId>ala-cas</artifactId>
 	<packaging>war</packaging>
-	<version>2.0.7</version>
+	<version>2.0.8-SNAPSHOT</version>
 
 	<prerequisites>
 		<maven>3.0.5</maven>
@@ -22,7 +22,7 @@
 		<connection>scm:git:https://github.com/AtlasOfLivingAustralia/ala-cas-2.0.git</connection>
 		<developerConnection>scm:git:git@github.com:AtlasOfLivingAustralia/ala-cas-2.0.git</developerConnection>
 		<url>https://github.com/AtlasOfLivingAustralia/ala-cas-2.0</url>
-	  <tag>ala-cas-2.0.7</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<build>
