@@ -27,6 +27,7 @@
     <var name="credential" class="org.jasig.cas.authentication.RememberMeUsernamePasswordCredential" />
     <on-start>
         <evaluate expression="initialFlowSetupAction" />
+        <evaluate expression="skin" result="flowScope.skin"/>
     </on-start>
 
     <action-state id="clientAction">
