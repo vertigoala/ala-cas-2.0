@@ -74,7 +74,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="https://www.ala.org.au/">
-                <img alt="Brand" src="https://www.ala.org.au/commonui-bs3-v2/commonui-bs3/img/ala-logo-2016-inline.png">
+                <img alt="Brand" src="https://www.ala.org.au/commonui-bs3/img/ala-logo-2016-inline.png">
             </a>
         </div>
 
