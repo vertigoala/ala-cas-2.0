@@ -25,6 +25,4 @@
 .password-block { display: flex; align-items: center; }
 .forgot {width: 0; font-size:16px; position: relative; right: 70px; }
 .checkbox-rememberMe label {font-size:14px;color:#637073;}
-
-#brand-logo { width: 124px; height: 109px; background: url("../img/supporting-graphic-element-flat-medium.png") no-repeat center;  }
-#brand-logo span { display: none; }
+#brand-logo-small { padding: 1.5ex 0.5ex 0.5ex 0.5ex;}

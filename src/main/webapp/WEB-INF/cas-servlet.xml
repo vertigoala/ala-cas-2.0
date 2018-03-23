@@ -36,6 +36,16 @@
       <constructor-arg index="1" ref="clients"/>
   </bean>
 
+  <!-- UI Configuration derived from properties or defaults -->
+  <bean id="skin" class="au.org.ala.cas.SkinBean"
+        p:allowRegister="${skin.allowRegister}"
+        p:identityProvidersString="${skin.identityProviders}"
+        p:layout="${skin.layout}"
+        p:orgNameLong="${skin.orgNameLong}"
+        p:orgNameShort="${skin.orgNameShort}"
+        p:homePage="${skin.homePage}"
+        />
+
   <!-- Theme Resolver -->
   <bean id="themeResolver" class="org.jasig.cas.services.web.ServiceThemeResolver"
         p:defaultThemeName="${cas.themeResolver.defaultThemeName}"

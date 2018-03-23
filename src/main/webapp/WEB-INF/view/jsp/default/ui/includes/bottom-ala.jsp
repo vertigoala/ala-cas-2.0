@@ -6,24 +6,12 @@
       </div> <!-- END #content -->
 
       <!-- TODO: add ALA footer-s -->
-<footer>
-    <c:choose>
-        <c:when test="${skin.layout == 'ala'}">
-            <jsp:directive.include file="bottom-ala.jsp" />
-        </c:when>
-        <c:when test="${skin.layout == 'plain'}">
-        </c:when>
-        <c:otherwise>
-        </c:otherwise>
-    </c:choose>
-
-<!-- Container -->
   <div class="container footer-container ">
     <hr class="footer-border">
     <div class="row footer-nav">
 
       <div class="col-md-12 margin-bottom-2">
-        <h2 class="heading-large margin-bottom-quarter-1">Atlas of Living Australia</h2>
+        <h2 class="heading-large margin-bottom-quarter-1">${skin.orgNameLong}</h2>
         <h3 class="promotional">Sharing biodiversity knowledge to shape our future</h3>
       </div>
 
@@ -138,26 +126,19 @@
       </div>
     </div>
   </div><!-- End Container -->
-</footer>
 
-<!-- Creative commons bar -->
-<div class="alert alert-creativecommons hidden-print" role="alert">
-  <div class="container alert-container">
-    <div class="row-fluid">
-      <div class="col-md-12">
-        <p class="alert-text text-creativecommons">
-          This work is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/au/">Creative Commons Attribution 3.0 Australia License</a>&ensp;<a rel="license" href="http://creativecommons.org/licenses/by/3.0/au/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/3.0/80x15.png"></a>
-        </p>
+  <!-- Creative commons bar -->
+  <div class="alert alert-creativecommons hidden-print" role="alert">
+    <div class="container alert-container">
+      <div class="row-fluid">
+        <div class="col-md-12">
+          <p class="alert-text text-creativecommons">
+            This work is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/au/">Creative Commons Attribution 3.0 Australia License</a>&ensp;<a rel="license" href="http://creativecommons.org/licenses/by/3.0/au/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/3.0/80x15.png"></a>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</div><!-- End Creative commons bar -->
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="<c:url value="/js/bootstrap.min.js"/>"></script>
+  </div><!-- End Creative commons bar -->
 
   </body>
 </html>
