@@ -11,7 +11,6 @@ import java.util.List;
  * Contains user interface properties for injection into JSPs
  *
  * @author Doug Palmer &lt;Doug.Palmer@csiro.au&gt;
- * @copyright Copyright &copy; 2017 Atlas of Living Australia
  */
 public class SkinBean implements Serializable {
 
