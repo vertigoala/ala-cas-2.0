@@ -61,6 +61,7 @@ public class TerminateSessionAction {
      * @param cas Core business logic object.
      * @param tgtCookieGenerator TGT cookie generator.
      * @param warnCookieGenerator Warn cookie generator.
+     * @param alaProxyAuthenticationCookieGenerator ALA Proxy Authentication cookie generator.
      */
     public TerminateSessionAction(
             final CentralAuthenticationService cas,

@@ -79,6 +79,8 @@ public final class ALAClientAuthenticationHandler extends AbstractAuthentication
      * Define the clients.
      *
      * @param theClients The clients for authentication
+	 * @param principalResolver The principal resolver
+	 * @param userCreator The user creator
      */
     public ALAClientAuthenticationHandler(final Clients theClients,
 					  final PrincipalResolver principalResolver,
