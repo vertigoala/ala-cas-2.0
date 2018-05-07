@@ -35,6 +35,9 @@ TODO: add ALA licensing info.
 		    <div class="logo-brand">
 			<div class="brand-layout-control">
 				<div id="brand-logo"><span>${skin.orgNameShort}</span></div>
+				<c:if test="${not empty skin.termsOfUse}">
+				<p class="small">By using this site you agree to our <a href="${skin.termsOfUse}">Terms of Use</a></p>
+				</c:if>
 			</div>
 			<h2 class="heading-medium-large">Sign in to the ${skin.orgNameShort}</h2>
 		    </div>

@@ -19,6 +19,7 @@ public class SkinBean implements Serializable {
     private String orgNameLong;
     private String orgNameShort;
     private String homePage;
+    private String termsOfUse;
     private List<String> identityProviders;
     private boolean allowRegister;
 
@@ -88,5 +89,13 @@ public class SkinBean implements Serializable {
 
     public void setAllowRegister(boolean allowRegister) {
         this.allowRegister = allowRegister;
+    }
+
+    public String getTermsOfUse() {
+        return termsOfUse;
+    }
+
+    public void setTermsOfUse(String termsOfUse) {
+        this.termsOfUse = termsOfUse;
     }
 }
