@@ -7,3 +7,7 @@ target/*
 .classpath
 
 overlays/
+
+*.old
+docker-compose-swarm.yml
+
